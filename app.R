@@ -9,10 +9,10 @@ library(sf)
 library(ggplot2)
 
 # Load required data sets
-relevant.groups <- read.csv("/Users/riyasakhrani/Documents/Past/Spring 23/POL 390/Project 4/relevantgroups.csv")
-clean_data <- read.csv("/Users/riyasakhrani/Documents/Past/Spring 23/POL 390/Project 4/ethnic_clean.csv")
-QoG <- read.csv("/Users/riyasakhrani/Documents/Past/Spring 23/POL 390/Project 4/data.clean.csv")
-country_efrac <- read.csv("/Users/riyasakhrani/Documents/Past/Spring 23/POL 390/Project 4/efrac_qog.csv")
+relevant.groups <- read.csv("./relevantgroups.csv")
+clean_data <- read.csv("./ethnic_clean.csv")
+QoG <- read.csv("./data.clean.csv")
+country_efrac <- read.csv("./efrac_qog.csv")
 data(World)
 
 # Rename name to country in World data set 
